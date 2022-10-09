@@ -1,5 +1,5 @@
 print(' ISBN 검증 ');
-isbn_n = input(' ISBN 12자리 : ');
+isbn_n = input(' ISBN 9자리 : ');
 isbn = 0;
 
 for i in range(len(isbn_n)):

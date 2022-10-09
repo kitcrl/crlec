@@ -4,9 +4,9 @@ barcode = 0;
 
 for i in range(len(barcode_n)): # i :  0 ~ 11
     if ( i%2 == 0 ) :
-        barcode += 3*int(barcode_n[i]);
-    else :
         barcode += int(barcode_n[i]);
+    else :
+        barcode += 3*int(barcode_n[i]);
 
 x13 = (10-barcode)%10;
 print( x13 );
